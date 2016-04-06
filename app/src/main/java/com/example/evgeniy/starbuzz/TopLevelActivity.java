@@ -18,7 +18,7 @@ public class TopLevelActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0){
-                    Intent intent = new Intent(this,DrinkCategoryActivity.class);
+                    Intent intent = new Intent(TopLevelActivity.this,DrinkCategoryActivity.class);
                     startActivity(intent);
                 }
             }
